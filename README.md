@@ -27,7 +27,7 @@ Use a conditional line-of-code breakpoint when you know the exact region of code
 - 5 Select Add conditional breakpoint. A dialog displays underneath the line of code.
 - 6 Enter your condition in the dialog.
 - 7 Press Enter to activate the breakpoint. An orange icon appears on top of the line number column.
-![]()
+![Conditional breakpoint](https://github.com/dianavile/Chrome-Devtools/blob/main/2conditional-breakpoint.png)
 
 ## 3 Manage line-of-code breakpoints
 Use the Breakpoints pane to disable or remove line-of-code breakpoints from a single location.
@@ -37,7 +37,7 @@ Use the Breakpoints pane to disable or remove line-of-code breakpoints from a si
 - 3 Right-click anywhere in the Breakpoints pane to deactivate all breakpoints, disable all breakpoints, or remove all breakpoints. 
     Disabling all breakpoints is equivalent to unchecking each one. Deactivating all breakpoints instructs DevTools to ignore all line-of-code breakpoints,
     but to also maintain preserve their enabled state so that they are in the same state as before when you reactivate them.
-![]()
+![Breakpoints]()
 
 ## 4 DOM change breakpoints
 Use a DOM change breakpoint when you want to pause on the code that changes a DOM node or its children.
