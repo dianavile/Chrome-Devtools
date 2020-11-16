@@ -2,7 +2,7 @@
 
 How to debug Javascript in Chrome Devtools
 
-To set a line-of-code breakpoint in DevTools:
+## 1 To set a line-of-code breakpoint in DevTools:
 - 1 Click the Sources tab.
 - 2 Open the file containing the line of code you want to break on.
 - 3 Go the line of code.
@@ -17,7 +17,41 @@ debugger;
 console.log('c');
 ```
 
-## Resources Chrome-Devtools
+## 2 Conditional line-of-code breakpoints
+Use a conditional line-of-code breakpoint when you know the exact region of code that you need to investigate, but you want to pause only when some other condition is true.
+
+- 1 Click the Sources tab.
+2- Open the file containing the line of code you want to break on.
+3- Go the line of code.
+4- To the left of the line of code is the line number column. Right-click it.
+5- Select Add conditional breakpoint. A dialog displays underneath the line of code.
+6- Enter your condition in the dialog.
+7- Press Enter to activate the breakpoint. An orange icon appears on top of the line number column.
+![]()
+
+## 3 Manage line-of-code breakpoints
+Use the Breakpoints pane to disable or remove line-of-code breakpoints from a single location.
+
+- 1 Check the checkbox next to an entry to disable that breakpoint.
+- 2 Right-click an entry to remove that breakpoint.
+- 3 Right-click anywhere in the Breakpoints pane to deactivate all breakpoints, disable all breakpoints, or remove all breakpoints. 
+    Disabling all breakpoints is equivalent to unchecking each one. Deactivating all breakpoints instructs DevTools to ignore all line-of-code breakpoints,
+    but to also maintain preserve their enabled state so that they are in the same state as before when you reactivate them.
+![]()
+
+## 4 
+![]()
+
+## 5
+![]()
+
+## 6 
+![]()
+
+## 7
+![]()
+
+### Resources Chrome-Devtools
 
 - [Chrome Devtools](https://www.youtube.com/watch?v=H0XScE08hy8)
 - [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started)
