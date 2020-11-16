@@ -1,4 +1,4 @@
-﻿# Chrome-Devtools
+# Chrome-Devtools
 
 How to debug Javascript in Chrome Devtools
 
@@ -22,4 +22,5 @@ console.log('c');
 - [Chrome Devtools](https://www.youtube.com/watch?v=H0XScE08hy8)
 - [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started)
 - [Chrome Devtools-DOCUMENTATION](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
+- [Chrome Devtools-Debug Javascript](https://developers.google.com/web/tools/chrome-devtools/javascript/reference)
 
