@@ -10,4 +10,16 @@ To set a line-of-code breakpoint in DevTools:
 ![Add breakpoint](https://github.com/dianavile/Chrome-Devtools/blob/main/1breakpoint.png)
 OR 
 Call debugger from your code to pause on that line. 
-```debugger()```
+```
+console.log('a');
+console.log('b');
+debugger;
+console.log('c');
+```
+
+## Resources Chrome-Devtools
+
+- [Chrome Devtools](https://www.youtube.com/watch?v=H0XScE08hy8)
+- [Demo](https://googlechrome.github.io/devtools-samples/debug-js/get-started)
+- [Chrome Devtools-DOCUMENTATION](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
+
