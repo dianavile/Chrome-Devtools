@@ -48,13 +48,32 @@ Use a DOM change breakpoint when you want to pause on the code that changes a DO
 - 4 Hover over Break on then select Subtree modifications, Attribute modifications, or Node removal.
 ![]()
 
-## 5
+Types of DOM change breakpoints
+- Subtree modifications. Triggered when a child of the currently-selected node is removed or added, or the contents of a child are changed. Not triggered on child node attribute changes, or on any changes to the currently-selected node.
+
+- Attributes modifications: Triggered when an attribute is added or removed on the currently-selected node, or when an attribute value changes.
+
+- Node Removal: Triggered when the currently-selected node is removed.
+
+## 5 XHR/Fetch breakpoints
+Use an XHR breakpoint when you want to break when the request URL of an XHR contains a specified string. DevTools pauses on the line of code where the XHR calls send(). This feature also works with Fetch requests.
+One example of when this is helpful is when you see that your page is requesting an incorrect URL, and you want to quickly find the AJAX or Fetch source code that is causing the incorrect request.
+
+- 1 Click the Sources tab.
+- 2 Expand the XHR Breakpoints pane.
+- 3 Click Add breakpoint.
+- 4 Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.
+- 5 Press Enter to confirm.
+
 ![]()
 
-## 6 
+## 6 Event listener breakpoints 
 ![]()
 
-## 7
+## 7 Exception breakpoints
+![]()
+
+## 8 Function breakpoints
 ![]()
 
 ### Resources Chrome-Devtools
