@@ -21,12 +21,12 @@ console.log('c');
 Use a conditional line-of-code breakpoint when you know the exact region of code that you need to investigate, but you want to pause only when some other condition is true.
 
 - 1 Click the Sources tab.
-2- Open the file containing the line of code you want to break on.
-3- Go the line of code.
-4- To the left of the line of code is the line number column. Right-click it.
-5- Select Add conditional breakpoint. A dialog displays underneath the line of code.
-6- Enter your condition in the dialog.
-7- Press Enter to activate the breakpoint. An orange icon appears on top of the line number column.
+- 2 Open the file containing the line of code you want to break on.
+- 3 Go the line of code.
+- 4 To the left of the line of code is the line number column. Right-click it.
+- 5 Select Add conditional breakpoint. A dialog displays underneath the line of code.
+- 6 Enter your condition in the dialog.
+- 7 Press Enter to activate the breakpoint. An orange icon appears on top of the line number column.
 ![]()
 
 ## 3 Manage line-of-code breakpoints
@@ -39,7 +39,13 @@ Use the Breakpoints pane to disable or remove line-of-code breakpoints from a si
     but to also maintain preserve their enabled state so that they are in the same state as before when you reactivate them.
 ![]()
 
-## 4 
+## 4 DOM change breakpoints
+Use a DOM change breakpoint when you want to pause on the code that changes a DOM node or its children.
+
+- 1 Click the Elements tab.
+- 2 Go the element that you want to set the breakpoint on.
+- 3 Right-click the element.
+- 4 Hover over Break on then select Subtree modifications, Attribute modifications, or Node removal.
 ![]()
 
 ## 5
