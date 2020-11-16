@@ -107,6 +107,13 @@ debug(hey); // This doesn't work. hey() is out of scope.
 ```
 ![]()
 
+Ensuring the target function is in scope can be tricky if you're calling debug() from the DevTools Console. 
+Here's one strategy:
+
+- 1 Set a line-of-code breakpoint somewhere where the function is in scope.
+- 2 Trigger the breakpoint.
+- 3 Call debug() in the DevTools Console while the code is still paused on your line-of-code breakpoint.
+
 ### Resources Chrome-Devtools
 
 - [Chrome Devtools](https://www.youtube.com/watch?v=H0XScE08hy8)
