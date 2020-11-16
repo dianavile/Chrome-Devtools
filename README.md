@@ -1,6 +1,6 @@
 # Chrome-Devtools
-
 How to debug Javascript in Chrome Devtools
+![Breakpoint types](https://github.com/dianavile/Chrome-Devtools/blob/main/0Breakpoint-types.JPG)
 
 ## 1 To set a line-of-code breakpoint in DevTools:
 - 1 Click the Sources tab.
