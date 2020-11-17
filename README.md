@@ -38,7 +38,8 @@ Use the Breakpoints pane to disable or remove line-of-code breakpoints from a si
 - 3 Right-click anywhere in the Breakpoints pane to deactivate all breakpoints, disable all breakpoints, or remove all breakpoints. 
     Disabling all breakpoints is equivalent to unchecking each one. Deactivating all breakpoints instructs DevTools to ignore all line-of-code breakpoints,
     but to also maintain preserve their enabled state so that they are in the same state as before when you reactivate them.
-![Breakpoints]()
+![Breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/3%20breakpoints-pane.png)
+![Deactivated Breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/3-2deactivated-breakpoints.png)
 
 ## 4 DOM change breakpoints
 Use a DOM change breakpoint when you want to pause on the code that changes a DOM node or its children.
@@ -47,7 +48,7 @@ Use a DOM change breakpoint when you want to pause on the code that changes a DO
 - 2 Go the element that you want to set the breakpoint on.
 - 3 Right-click the element.
 - 4 Hover over Break on then select Subtree modifications, Attribute modifications, or Node removal.
-![]()
+![DOM change breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/4dom-change-breakpoint.png)
 
 ## Types of DOM change breakpoints
 - Subtree modifications. Triggered when a child of the currently-selected node is removed or added, or the contents of a child are changed. Not triggered on child node attribute changes, or on any changes to the currently-selected node.
@@ -63,7 +64,7 @@ One example of when this is helpful is when you see that your page is requesting
 - 3 Click Add breakpoint.
 - 4 Enter the string which you want to break on. DevTools pauses when this string is present anywhere in an XHR's request URL.
 - 5 Press Enter to confirm.
-![]()
+![XHR/Fetch breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/5xhr-breakpoint.png)
 
 ## 6 Event listener breakpoints 
 Use event listener breakpoints when you want to pause on the event listener code that runs after an event is fired. You can select specific events, such as click, or categories of events, such as all mouse events.
@@ -71,7 +72,7 @@ Use event listener breakpoints when you want to pause on the event listener code
 - 1 Click the Sources tab.
 - 2 Expand the Event Listener Breakpoints pane. DevTools shows a list of event categories, such as Animation.
 - 3 Check one of these categories to pause whenever any event from that category is fired, or expand the category and check a specific event.
-![]()
+![Event listener breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/6event-listener-breakpoint.png)
 
 ## 7 Exception breakpoints
 Use exception breakpoints when you want to pause on the line of code that's throwing a caught or uncaught exception.
@@ -79,7 +80,8 @@ Use exception breakpoints when you want to pause on the line of code that's thro
 - 1 Click the Sources tab.
 - 2 Click Pause on exceptions Pause on exceptions. It turns blue when enabled.
 - 3 (Optional) Check the Pause On Caught Exceptions checkbox if you also want to pause on caught exceptions, in addition to uncaught ones.
-![]()
+![Exception breakpoints](https://github.com/dianavile/Chrome-Devtools/blob/main/7-2uncaught-exception.png)
+![uncaught exception](https://github.com/dianavile/Chrome-Devtools/blob/main/7-2uncaught-exception.png)
 
 ## 8 Function breakpoints
 Call debug(functionName), where functionName is the function you want to debug, when you want to pause whenever a specific function is called. You can insert debug() into your code (like a console.log() statement) or call it from the DevTools Console. debug() is equivalent to setting a line-of-code breakpoint on the first line of the function.
